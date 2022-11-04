@@ -1,7 +1,7 @@
 package com.niit.jdp;
 
-public class Main {
+public class EmployeeImpl {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
     }
 }
