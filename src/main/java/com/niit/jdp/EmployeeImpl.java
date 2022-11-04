@@ -10,6 +10,6 @@ public class EmployeeImpl {
         double annualSalary = daniel.calculateAnnualSalary();
         System.out.println("Annual Salary Of Daniel = $" + annualSalary);
         double salaryAfterPayRaise = daniel.calculateSalaryAfterPayRaise(20);
-        System.out.println("Salary Of Daniel After Pay Raise = " + salaryAfterPayRaise);
+        System.out.println("Salary Of Daniel After Pay Raise = $" + salaryAfterPayRaise);
     }
 }
