@@ -14,4 +14,12 @@ public class Employee {
         this.address = address;
         this.salary = salary;
     }
+
+    public double calculateAnnualSalary() {
+        return salary * 12;
+    }
+
+    double calculateSalaryAfterPayRaise(double hikePercentage) {
+        return (salary + (salary * hikePercentage / 100));
+    }
 }
